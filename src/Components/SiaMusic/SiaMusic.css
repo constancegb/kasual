@@ -1,0 +1,134 @@
+#sia-music {
+  padding-top: 50px;
+}
+
+#title-section {
+  width: 90vw;
+  height: 130px;
+  background-color: #b7b7b740;
+  border-radius: 10px;
+  margin: 0 auto 60px auto;
+  color: white;
+  font-family: 'Roboto';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  letter-spacing: 3px;
+}
+
+#search-input {
+  width: 89vw;
+  height: 45px;
+  border: 1px solid whitesmoke;
+  background-color: transparent;
+  border-radius: 10px;
+  padding-left: 15px;
+  color: white;
+  font-size: 1em;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+}
+
+*:focus {
+  outline: 0;
+}
+
+#songs-container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+#song-item {
+  border-bottom: 1px solid whitesmoke;
+  padding: 15px;
+  letter-spacing: 0.7px;
+  display: flex;
+}
+
+#song-item a:hover {
+  font-weight: bold;
+  color: white;
+}
+
+#song-item a {
+  color: whitesmoke;
+  text-decoration: none;
+  width: max-content;
+  font-family: 'Roboto';
+  font-size: 1.1em;
+  position: relative;
+  top: -1px;
+}
+
+#pagination {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  margin: auto;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 40px;
+  color: whitesmoke;
+}
+
+#page-num {
+  border-top: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85em;
+
+}
+
+#previous button, #next button {
+  border: 1px solid whitesmoke;
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  color: whitesmoke;
+}
+
+#previous button {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+#next button {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+#hidden {
+  display: none;
+}
+
+#link {
+  width: max-content;
+  height: 16px;
+}
+
+#enabled {
+  width: max-content;
+  height: 16px;
+  margin: auto;
+}
+
+#enabled a {
+  text-decoration: none;
+  color: #ff7601;
+  font-size: 0.85em;
+  font-family: 'Roboto';
+}
+
+#enabled a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#disabled {
+  display: none;
+}

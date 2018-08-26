@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+#blur-bck {
+  position: absolute;
+  right: 0;
+  height: 104vh;
+  width: 100vw;
+}
